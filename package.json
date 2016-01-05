@@ -1,0 +1,40 @@
+{
+  "name": "material-ui-table",
+  "version": "0.1.1",
+  "keywords": [
+    "material-ui",
+    "react",
+    "simditor"
+  ],
+  "description": "material-ui-table",
+  "main": "lib/table.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib",
+    "prebuild": "rimraf lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maichong/material-ui-table.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maichong/material-ui-table/issues"
+  },
+  "homepage": "https://github.com/maichong/material-ui-table#readme",
+  "peerDependencies": {
+    "react": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "rimraf": "^2.5.0"
+  },
+  "author": {
+    "email": "liang@maichong.it",
+    "name": "Liang",
+    "url": "https://github.com/liangxingchen"
+  }
+}
