@@ -1,10 +1,9 @@
 {
   "name": "material-ui-table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "material-ui",
-    "react",
-    "simditor"
+    "react"
   ],
   "description": "material-ui-table",
   "main": "lib/table.js",
